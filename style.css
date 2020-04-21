@@ -10,3 +10,18 @@ html{
   overflow: hidden;
   height: 100%;
 }
+
+/* mediaQuery Versione desktop  */
+@media all and (min-width: 992px){
+
+}
+
+/* mediaQuery versione tablet */
+@media all and (min-width: 769px) and (max-width: 991px) {
+
+}
+
+/* mediaQuery versione phone */
+@media all and (max-width: 768px){
+  
+}
