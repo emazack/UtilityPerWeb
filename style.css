@@ -4,3 +4,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+/* evitare che scrolli anche la pagina intera, dopo che si è inserito una scroll bar */
+html{
+  overflow: hidden;
+  height: 100%;
+}
