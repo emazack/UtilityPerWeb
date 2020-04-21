@@ -18,4 +18,17 @@ $(document).ready(function(){
   // inserisco l'informazione del template "html" dove voglio io
   $(".DoveVoglioIo").append(html);
 
+  // chiamate AJAX per utilizzare api
+  $.ajax({
+    url : "https://flynn.boolean.careers/exercises/api/random/int",
+    method : "GET",
+    success: function (data,stato) {
+      // quello che succede se tutto va bene
+    },
+    error : function (richiesta, stato, errore) {
+      // quello che succede se c'è un errore. Ex:
+      alert("E' avvenuto un errore. " + errore);
+    }
+  });
+
 });
